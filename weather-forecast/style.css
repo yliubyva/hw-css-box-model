@@ -1,0 +1,204 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+input, button, textarea, select {
+    font-family: inherit;
+}
+
+a, button, li {
+    cursor: pointer;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    height: 100vh;
+    width: 100%;
+    background: rgba(51, 153, 204, 1);
+    border: 25px solid rgba(43, 129, 172, 1);
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1166px;
+}
+
+h1 {
+    margin-top: 60px;
+    margin-bottom: 35px;
+
+    font-family: sans-serif;
+    font-size: 21px;
+    line-height: 25.28px;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+p {
+    padding-bottom: 19px;
+}
+
+p:last-child {
+    padding-bottom: 0;
+}
+
+.message {
+    margin-top: 35px;
+    
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 18.75px;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+ul {
+    /* margin: 0 auto; */
+    list-style: none;
+    font-family: sans-serif;
+    text-align: center;
+
+    padding: 2px 4px;
+
+    background: rgba(255, 255, 255, 1);
+    font-size: 0;
+    max-width: 1170px;
+}
+
+li {
+    margin: 2px 0;
+    padding-top: 26px;
+    padding-bottom: 27px;
+    display: inline-block;
+    background: orange;
+    font-size: 22px;
+    color: #ffffff;
+    border-right: 4px solid rgba(255, 255, 255, 1);
+}
+
+.belgrade, .new-York, .tokyo, .sydney {
+    border: none;
+}
+
+.lisbon,
+.san-Francisco{
+    width: 50%;
+}
+
+.paris,
+.belgrade,
+.venice,
+.tel-Avive,
+.cair,
+.new-York,
+.new-Delhi,
+.tokyo {
+    width: 25%;
+}
+
+.sydney {
+    width: 100%;
+}
+
+.lisbon {
+    background: rgba(51, 153, 204, 0.8);
+}
+
+.lisbon:hover {
+    background: rgba(51, 153, 204, 1);
+}
+
+.paris {
+    background: rgba(51, 204, 204, 0.8);
+}
+
+.paris:hover {
+    background: rgba(51, 204, 204, 1);
+}
+
+.belgrade {
+    background: rgba(153, 102, 153, 0.8);
+}
+
+.belgrade:hover {
+    background: rgba(153, 102, 153, 1);
+}
+
+.venice {
+    background: rgba(194, 71, 71, 0.8);
+}
+
+.venice:hover {
+    background: rgba(194, 71, 71, 1);
+}
+
+.tel-Avive {
+    background: rgba(226, 103, 74, 0.8);
+}
+
+.tel-Avive:hover {
+    background: rgba(226, 103, 74, 1);
+}
+
+.cair {
+    background: rgba(255, 204, 102, 0.8);
+}
+
+.cair:hover {
+    background: rgba(255, 204, 102, 1);
+}
+
+.new-York {
+    background: rgba(153, 204, 153, 0.8);
+}
+
+.new-York:hover {
+    background: rgba(153, 204, 153, 1);
+}
+
+.new-Delhi {
+    background: rgba(102, 153, 153, 0.8);
+}
+
+.new-Delhi:hover {
+    background: rgba(102, 153, 153, 1);
+}
+
+.san-Francisco {
+    background: rgba(204, 102, 153, 0.8);
+}
+
+.san-Francisco:hover {
+    background: rgba(204, 102, 153, 1);
+}
+
+.tokyo {
+    background: rgba(51, 153, 102, 0.8);
+}
+
+.tokyo:hover {
+    background: rgba(51, 153, 102, 1);
+}
+
+.sydney {
+    background: rgba(102, 102, 153, 0.8);
+}
+
+.sydney:hover {
+    background: rgba(102, 102, 153, 1);
+}
+
+.wi {
+    font-size: 42px;
+}
+
+.wi-solar-eclipse {
+    font-size: 34px;
+}
